@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <title>Layout web com css</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #sec_form {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        fieldset {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="nav_main">
+            <div id="nav_esq">
+                <a href="../index.html">Home</a>
+                <a href="sobre.html">Sobre nós</a>
+                <a href="cardapio.html">Cardápio</a>
+                <a href="precos.html">Preços</a>
+                <a href="giftcard.html">Gift Card</a>
+            </div>
+            <div id="logo">
+                <img src="img/favicon.png">
+            </div>
+            <div id="nav_dir">
+                <a href="faq.html">FAQ</a>
+                <a href="reserva.html">Reservas</a>
+                <a href="contato.html" style="color:rgb(153, 56, 31);">Contato</a>
+                <a href="trabalhe.html">Trabalhe conosco</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contato</h1>
+
+        <section id="sec_form">
+            <form action="" method="post"></form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" required>
+                </p>
+                <p>
+                    <label for="nome">Email:</label>
+                    <input type="email" name="email" id="email">
+                </p>
+                <p>
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" required>
+                </p>
+                <button type="submit">Enviar</button>
+            </fieldset>
+            <fieldset>
+                <legend>Outros Dados</legend>
+            </fieldset>
+            <fieldset>
+                <legend>Mensagem</legend>
+            </fieldset>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+</body>
+
+</html>
